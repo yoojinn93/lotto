@@ -6,7 +6,7 @@ class LuckyController < ApplicationController
         "31","32","33","34","35","36","37","38","39","40",
         "41","42","43","44","45"]
         
-        @picknumber = @number.sample(6).sort
+        @picknumber = @number.sample(6)
         
         @picknumber0 = @picknumber[0]
         @picknumber1 = @picknumber[1]
